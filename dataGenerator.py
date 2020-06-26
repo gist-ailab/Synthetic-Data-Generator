@@ -92,7 +92,6 @@ if __name__ =="__main__":
     parser = argparse.ArgumentParser()
     # basic setting
     parser.add_argument("--scene", type=str, default="basic_scene.ttt", help="scene file")
-    parser.add_argument("--pid", type=int, default=1, help="process id. 1 from 16")
     # object numbers
     parser.add_argument("--max_img_num", type=int, default=10000, help="maximum image number")
     parser.add_argument("--headless", action='store_true', help='no gui if true')
